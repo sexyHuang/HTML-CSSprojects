@@ -86,6 +86,7 @@ a:hover {
 }
 a:hover ~ #banner {
 	animation-play-state:paused;
+	-webkit-animation-play-state: paused;
 }
 a:nth-of-type(1):hover ~ #banner {
 	animation: mymove-0 0.5s ease-out forwards;
@@ -105,15 +106,15 @@ a:nth-of-type(3):hover ~ #banner {
 	66%,96%{margin-left: -850px;}
 	100% {margin-left: -1275px;}
 }
-@keyframes mymove-1{
+@-webkit-keyframes mymove-1{
 	0% {margin-left:  -425px;}
 	100% {margin-left: -425px;}
 }
-@keyframes mymove-2{
+@-moz-keyframes mymove-2{
 	0% {margin-left:  -850px;}
 	100% {margin-left: -850px;}
 }
-@keyframes mymove-0{
+@-o-keyframes mymove-0{
 	100% {margin-left: 0px;}
 }
 
