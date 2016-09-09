@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+	padding: 0;
+}
+body {
+	min-width: 670px;
+	background-color: #DEDEDE;
+	font: 15px/2.0 "Microsoft YaHei",SimSun,sans-serif;
+}
+
+header {
+	width: 100%;
+	height: 60px;
+	color: white;
+	background-color: #333333;
+}
+header img {
+	float: left;
+	margin: 5px 20px;
+	width: 50px;
+	height: 50px;
+}
+
+header nav ul {
+	list-style: none;
+	float: right;
+	margin-right: 20px;
+}
+header nav ul li {
+	float: left;
+	padding: 0px 10px;
+}
+header nav ul li a{
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	line-height: 60px;
+	font-size: 17px;
+}
+header nav ul li:hover {
+	background-color: #ECC84F;
+}
+
+.main {
+	margin: 0 410px 0 0 ;
+}
+.photo {
+	width: 60%;
+}
+article {
+	min-width: 190px;	
+}
+article,aside {
+	background-color: #FFFFFF;
+	box-shadow: 1px 1px 2px 1px #848484;
+	margin: 20px;
+	padding: 20px;
+}
+h3 {
+	color: #68605D;
+}
+p.message {
+	color: #9B9C97;
+	font-size: 13px;
+}
+p.text {
+	text-indent: 2em;
+}
+
+#a2 ul {
+	list-style: none;
+	margin: 0px 20px;
+}
+
+#pic ul {
+	list-style: none;
+}
+#pic li {
+	display: inline-block;
+	font-size:14px;
+	text-align: center;
+	width: 180px;
+	border: 1px solid #DEDEDE;
+	margin: 10px 20px;
+}
+#pic li img {
+	width: 150px;
+	height: 99px;
+}
+
+#a3 ol {
+	margin: 10px 35px;
+}
+
+table {
+	background-color: #DEDEDE;
+	width: 100%;
+}
+table col{
+	width: 40%;
+}
+table col:last-chird {
+	width: 20%
+}
+table thead tr th {
+	padding-left: 5px;
+	background-color: #333333;
+	color: white;
+	text-align: left; 
+}
+table tbody tr td {
+	padding-left: 5px;
+	background-color: white;
+}
+table tfoot tr td {
+	padding-left: 5px;
+	font-weight: bold;
+}
+
+aside {
+	width: 350px;
+	float: right;
+	
+}
+aside h2{
+	margin-bottom: 10px;
+	font-size: 18px;
+	padding-left: 10px;
+	border-left: 3px solid #DEDEDE;
+}
+aside form {
+	width:100%;	
+	font-size: 13px;
+}
+aside .title {
+	float: left;
+	width: 35%;
+	text-align: right;
+	padding-right: 15px;
+}
+aside .tip {
+	margin-left: 35%;
+	padding-left: 15px;
+	font-size: 13px;
+	color: #aaa;
+}
+aside input {
+	
+	margin-right: 3px;
+}
+.textbox {
+	width: 140px;
+	padding: 1px;
+}
+
+aside textarea{
+	padding: 1px;
+	font-size: 13px;
+	font-family: "Microsoft YaHei";
+	width: 50%;
+	height: 100px;	
+}
+aside form>input {
+	margin-top: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	width: 100%;
+	height: 40px;
+	border: none;
+	color: white;
+	background-color: #4C9ED9;
+	border-radius: 10px;
+}
+aside form>input:hover {
+	background-color: #3355D0;
+}	 	
+/*Ò³½Å*/
+footer {
+	width: 100%;
+	height:50px;
+	color: white;
+	background-color: #333333;
+	text-align:center;
+}
+footer p{
+	font-size: 12px;
+	line-height:50px;
+}

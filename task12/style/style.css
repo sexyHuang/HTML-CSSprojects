@@ -1,0 +1,121 @@
+.tb {
+	width: 300px;
+}
+.tb>div{
+	font-size: 0;
+	color: black;
+}
+.tb>div div{
+	font-size: 15px;
+	display: inline-block;
+	margin-left: 2px;
+	padding-left: 5px;
+}
+.tb>div:nth-of-type(odd) div{
+	background: gray;
+}
+.tb>div:nth-of-type(even) div{
+	background: white;
+}
+.tb>div:nth-of-type(1) div{
+	background: black;
+	color: white;
+}
+.tb>div:nth-of-type(2),.tb>div:nth-of-type(3),.tb>div:nth-of-type(4) {
+	color: red;
+}
+
+.tb>div div:nth-of-type(1) {
+	width: 10%;
+}
+.tb>div div:nth-of-type(2) {
+	width: 50%;
+}
+.tb>div div:nth-of-type(3) {
+	width: 20%;
+}
+input {
+	display: block;
+	width: 100px;
+	margin: 10px;
+	transition: width 2s;
+	-moz-transition: width 2s;
+	-webit-transition: width 2s;
+	-o-transition: width 2s;
+}
+input:focus {
+	width: 300px;
+	border: 2px solid #7BAEE9;
+}
+#banner {
+	font-size: 0;
+	width: 2550px;
+	position: absolute;
+	z-index: -1;	
+}
+.play {
+	animation: mymove 10s infinite;
+	-webkit-animation: mymove 10s infinite;
+}
+.banner-viewport {
+	width: 425px;
+	height: 246px;
+	overflow: hidden;
+	position: relative;
+}
+a {
+	position: absolute;
+	display: inline-block;
+	border-radius:100%;
+	right: 10px;
+	top: 220px;
+	line-height:25px;
+	background:#f00;	
+	width: 25px;
+	height: 25px;
+    cursor:pointer;  
+    color:#fff;  
+    text-align:center;  
+    opacity:0.8;
+	text-decoration: none;
+}
+a:nth-of-type(2){margin-right:30px}  
+a:nth-of-type(1){margin-right:60px}  
+a:hover {
+	background: blue;
+}
+a:hover ~ #banner {
+	animation-play-state:paused;
+}
+a:nth-of-type(1):hover ~ #banner {
+	animation: mymove-0 0.5s ease-out forwards;
+	-webkit-animation: mymove-0 0.5s ease-out forwards;
+}
+a:nth-of-type(2):hover ~ #banner {
+	animation: mymove-1 0.5s ease-out forwards;
+	-webkit-animation: mymove-1 0.5s ease-out forwards;
+}
+a:nth-of-type(3):hover ~ #banner {
+	animation: mymove-2 0.5s ease-out forwards;
+	-webkit-animation: mymove-2 0.5s ease-out forwards;
+}
+@keyframes mymove{
+	0%,30% {margin-left: 0;}
+	33%,63% {margin-left: -425px;}
+	66%,96%{margin-left: -850px;}
+	100% {margin-left: -1275px;}
+}
+@keyframes mymove-1{
+	0% {margin-left:  -425px;}
+	100% {margin-left: -425px;}
+}
+@keyframes mymove-2{
+	0% {margin-left:  -850px;}
+	100% {margin-left: -850px;}
+}
+@keyframes mymove-0{
+	100% {margin-left: 0px;}
+}
+
+
+

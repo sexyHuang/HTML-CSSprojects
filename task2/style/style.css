@@ -1,0 +1,62 @@
+body {
+	font: 15px "Microsoft YaHei",SimSun,sans-serif;
+}
+img{
+	border: 1px solid #999;
+	width: 80px;
+	height:80px;
+}
+div {
+	border: 1px solid #999;
+	padding: 20px;
+}
+.container {
+	position: relative;
+	background-color: #eee;
+	overflow: hidden;
+}
+.container div{
+	background-color: white;
+}
+.logo img {
+	display: block;
+	margin-bottom: 20px;
+}
+.logo img:last-child {
+	margin-bottom: 0px;
+}
+
+.title {
+	width: 160px;
+}
+.teamLogo {
+	float: left;
+}
+.teamName {
+	border: none;
+	width: 180px;
+	padding: 0px;
+	text-align: center;
+}
+.introduce{
+	margin:0 140px 0 220px;
+	
+}
+
+ 
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.position_t {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+.position_l {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
