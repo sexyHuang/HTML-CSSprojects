@@ -1,3 +1,2 @@
 #纯HTML&CSS实现的多个页面
-    [task1](http://sexyhuang.github.io/HTML-CSSprojects/task1/)
-    :一个简单页面
+    task1:一个简单页面<http://sexyhuang.github.io/HTML-CSSprojects/task1/>
