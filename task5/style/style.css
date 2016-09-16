@@ -50,12 +50,13 @@ header nav ul li:hover {
 	margin-left: 52px; 
 } 
 .h_lpart img {
-	float: left;
+
 	width: 35px;
 	height: 35px;
 	margin: 10px;
 }
 .h_lpart p {
+	float: right;
 	margin: 0;
 	color: #3C3C3C;
 	font-family: "黑体";
@@ -71,12 +72,12 @@ header nav ul li:hover {
 	float: right;
 }
 .login img {
-	float: left;
 	margin: 20px 3px 0 10px;
 	width: 15px;
 	height: 18px;
 }
 .login p {
+	float: right;
 	margin: 0 10px 0 0;
 	height: 57px;
 	line-height: 57px;
